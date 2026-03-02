@@ -2,6 +2,10 @@
 layout: false
 ---
 
+<script setup>
+import { withBase } from "vitepress"
+</script>
+
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">LaCie</div>
@@ -35,22 +39,22 @@ layout: false
 
   <h2 class="content-h2">Product Web Pages</h2>
   <div class="gallery gallery-2">
-    <img :src="'/images/5big_TB1.jpg'" alt="5big Thunderbolt" />
-    <img :src="'/images/cloudbox_web1.jpg'" alt="CloudBox" />
-    <img :src="'/images/rugged_tb_web.jpg'" alt="Rugged Thunderbolt" />
+    <img :src="withBase('/images/5big_TB1.jpg')" alt="5big Thunderbolt" />
+    <img :src="withBase('/images/cloudbox_web1.jpg')" alt="CloudBox" />
+    <img :src="withBase('/images/rugged_tb_web.jpg')" alt="Rugged Thunderbolt" />
   </div>
 
   <h2 class="content-h2">Packaging</h2>
   <div class="gallery gallery-2" style="margin-top: 1rem;">
-    <img :src="'/images/pkg_galet.jpg'" alt="Galet packaging" />
-    <img :src="'/images/pkg_ruggedmini.jpg'" alt="Rugged Mini packaging" />
-    <img :src="'/images/pkg_ruggedkey.jpg'" alt="Rugged Key packaging" />
-    <img :src="'/images/pkg_p9223slim.jpg'" alt="P9223 Slim packaging" />
+    <img :src="withBase('/images/pkg_galet.jpg')" alt="Galet packaging" />
+    <img :src="withBase('/images/pkg_ruggedmini.jpg')" alt="Rugged Mini packaging" />
+    <img :src="withBase('/images/pkg_ruggedkey.jpg')" alt="Rugged Key packaging" />
+    <img :src="withBase('/images/pkg_p9223slim.jpg')" alt="P9223 Slim packaging" />
   </div>
 
   <h2 class="content-h2">Iconography</h2>
   <div class="gallery-full" style="margin-top: 1rem;">
-    <img :src="'/images/icons.jpg'" alt="Icon set" />
+    <img :src="withBase('/images/icons.jpg')" alt="Icon set" />
   </div>
 
 </div>

@@ -2,6 +2,10 @@
 layout: false
 ---
 
+<script setup>
+import { withBase } from "vitepress"
+</script>
+
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">XPO Logistics</div>
@@ -36,13 +40,13 @@ layout: false
 
   <h2 class="content-h2">Inspection App</h2>
   <div class="gallery gallery-2">
-    <img :src="'/images/InspectionApp-Sketch1.jpg'" alt="Inspection App sketch 1" />
-    <img :src="'/images/InspectionApp-Sketch2.jpg'" alt="Inspection App sketch 2" />
+    <img :src="withBase('/images/InspectionApp-Sketch1.jpg')" alt="Inspection App sketch 1" />
+    <img :src="withBase('/images/InspectionApp-Sketch2.jpg')" alt="Inspection App sketch 2" />
   </div>
 
   <h2 class="content-h2">UI Specifications</h2>
   <div class="gallery-full">
-    <img :src="'/images/text-box-specs.png'" alt="UI component specification" />
+    <img :src="withBase('/images/text-box-specs.png')" alt="UI component specification" />
     <p class="img-caption">Text input component specification</p>
   </div>
 

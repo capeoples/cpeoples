@@ -2,6 +2,10 @@
 layout: false
 ---
 
+<script setup>
+import { withBase } from "vitepress"
+</script>
+
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">Seagate</div>
@@ -36,29 +40,29 @@ layout: false
 
   <h2 class="content-h2">NAS OS 4</h2>
   <div class="gallery gallery-3">
-    <img :src="'/images/nasos1.png'" alt="NAS OS screen 1" />
-    <img :src="'/images/nasos2.png'" alt="NAS OS screen 2" />
-    <img :src="'/images/nasos3.png'" alt="NAS OS screen 3" />
+    <img :src="withBase('/images/nasos1.png')" alt="NAS OS screen 1" />
+    <img :src="withBase('/images/nasos2.png')" alt="NAS OS screen 2" />
+    <img :src="withBase('/images/nasos3.png')" alt="NAS OS screen 3" />
   </div>
 
   <h2 class="content-h2">Backup Plan</h2>
   <div class="gallery gallery-2" style="margin-top: 1rem;">
-    <img :src="'/images/backup_plan1.jpg'" alt="Backup plan iteration 1" />
-    <img :src="'/images/backup_plan2.jpg'" alt="Backup plan iteration 2" />
-    <img :src="'/images/backup_plan3.jpg'" alt="Backup plan iteration 3" />
-    <img :src="'/images/backup_plan4.jpg'" alt="Backup plan iteration 4" />
+    <img :src="withBase('/images/backup_plan1.jpg')" alt="Backup plan iteration 1" />
+    <img :src="withBase('/images/backup_plan2.jpg')" alt="Backup plan iteration 2" />
+    <img :src="withBase('/images/backup_plan3.jpg')" alt="Backup plan iteration 3" />
+    <img :src="withBase('/images/backup_plan4.jpg')" alt="Backup plan iteration 4" />
   </div>
 
   <h2 class="content-h2">Wuala</h2>
   <div class="gallery gallery-3" style="margin-top: 1rem;">
-    <img :src="'/images/wuala1.png'" alt="Wuala screen 1" />
-    <img :src="'/images/wuala2.png'" alt="Wuala screen 2" />
+    <img :src="withBase('/images/wuala1.png')" alt="Wuala screen 1" />
+    <img :src="withBase('/images/wuala2.png')" alt="Wuala screen 2" />
   </div>
 
   <h2 class="content-h2">Iconography</h2>
   <div class="gallery gallery-2" style="margin-top: 1rem;">
-    <img :src="'/images/icons_nasos.jpg'" alt="NAS OS icons" />
-    <img :src="'/images/icons_wuala.jpg'" alt="Wuala icons" />
+    <img :src="withBase('/images/icons_nasos.jpg')" alt="NAS OS icons" />
+    <img :src="withBase('/images/icons_wuala.jpg')" alt="Wuala icons" />
   </div>
 
 </div>

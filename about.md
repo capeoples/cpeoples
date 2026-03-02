@@ -2,6 +2,10 @@
 layout: false
 ---
 
+<script setup>
+import { withBase } from "vitepress"
+</script>
+
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">About</div>
@@ -12,8 +16,8 @@ layout: false
 
 <div class="content-body">
   <div class="about-images">
-    <img :src="'/images/colleen-food.png'" alt="" />
-    <img :src="'/images/colleen-adventure.png'" alt="" />
+    <img :src="withBase('/images/colleen-food.png')" alt="" />
+    <img :src="withBase('/images/colleen-adventure.png')" alt="" />
   </div>
   <div class="about-bio">
     <p>I'm a UX designer with over a decade of experience helping companies build intuitive, human-centered products. I've led design at XPO Logistics, Seagate, and LaCie — working across enterprise software, consumer hardware, mobile apps, and packaging.</p>

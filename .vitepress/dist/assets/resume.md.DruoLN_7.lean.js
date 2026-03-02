@@ -1,1 +1,0 @@
-import{_ as e,o as i,c as s,B as l}from"./chunks/framework.BalCpBef.js";const v=JSON.parse('{"title":"","description":"","frontmatter":{"layout":false},"headers":[],"relativePath":"resume.md","filePath":"resume.md"}'),o={name:"resume.md"};function n(a,t,r,d,u,g){return i(),s("div",null,[...t[0]||(t[0]=[l("",2)])])}const m=e(o,[["render",n]]);export{v as __pageData,m as default};

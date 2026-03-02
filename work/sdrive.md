@@ -2,6 +2,10 @@
 layout: false
 ---
 
+<script setup>
+import { withBase } from "vitepress"
+</script>
+
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">Seagate</div>
@@ -35,14 +39,14 @@ layout: false
 
   <h2 class="content-h2">App Screens</h2>
   <div class="gallery gallery-3">
-    <img :src="'/images/sdrive-iOS-1.png'" alt="SDrive screen 1" />
-    <img :src="'/images/sdrive-iOS-2.png'" alt="SDrive screen 2" />
-    <img :src="'/images/sdrive-iOS-3.png'" alt="SDrive screen 3" />
+    <img :src="withBase('/images/sdrive-iOS-1.png')" alt="SDrive screen 1" />
+    <img :src="withBase('/images/sdrive-iOS-2.png')" alt="SDrive screen 2" />
+    <img :src="withBase('/images/sdrive-iOS-3.png')" alt="SDrive screen 3" />
   </div>
 
   <h2 class="content-h2">Specifications</h2>
   <div class="gallery-full" style="margin-top: 1rem;">
-    <img :src="'/images/sdrive-ios-spec.png'" alt="SDrive iOS specifications" />
+    <img :src="withBase('/images/sdrive-ios-spec.png')" alt="SDrive iOS specifications" />
   </div>
 
 </div>
