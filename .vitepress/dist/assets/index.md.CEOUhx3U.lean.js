@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as r,B as e}from"./chunks/framework.BalCpBef.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{"layout":false},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),d={name:"index.md"};function c(o,a,t,l,n,v){return i(),r("div",null,[...a[0]||(a[0]=[e("",2)])])}const k=s(d,[["render",c]]);export{g as __pageData,k as default};
